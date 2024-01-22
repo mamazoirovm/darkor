@@ -1,0 +1,40 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  
+}
+
+.selected-option {
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid #E3E3E3;
+  cursor: pointer;
+  padding: 18px;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.options li {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}

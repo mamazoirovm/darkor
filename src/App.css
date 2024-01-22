@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  padding: 32px 38px;
+  flex-direction: column;
+  border-radius: 24px;
+  background: #fff;
+  width: 100%;
+  max-width: 780px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  text-align: left;
+}
+.img-to {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.profile {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+}
+.yukla {
+  color: var(--Mai, #5361e4);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.links a {
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #e3e3e3;
+}
+label {
+  margin-bottom: 8px;
+}
+textarea {
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid #e3e3e3;
+}
+.btn-group {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 42px;
+}
+.btn-group button {
+  padding: 15px 30px;
+  border: none;
+  color: var(--Gray, #6e6d77);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.blue{
+  border-radius: 16px;
+background: var(--Mai, #5361E4);
+color: white !important;
+}

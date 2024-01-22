@@ -1,0 +1,24 @@
+.form-content {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  margin-top: 25px;
+}
+label {
+  color: var(--Dark, #2a2941);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  max-width: 702px;
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid #e3e3e3;
+}
